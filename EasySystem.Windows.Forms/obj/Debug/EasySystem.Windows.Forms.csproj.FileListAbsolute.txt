@@ -1,0 +1,8 @@
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\bin\Debug\EasySystem.Windows.Forms.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\bin\Debug\EasySystem.Windows.Forms.pdb
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\obj\Debug\EasySystem.Windows.Forms.MessageBoxAll.resources
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\obj\Debug\EasySystem.Windows.Forms.dll
+C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_MiniMod\EasySystem.Windows.Forms\obj\Debug\EasySystem.Windows.Forms.pdb

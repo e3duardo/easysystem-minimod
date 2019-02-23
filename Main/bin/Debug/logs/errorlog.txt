@@ -1,0 +1,988 @@
+Title: Int32 GetOrdinal(System.String)
+Message: idClientessssssss
+StackTrace:    em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Library.VendaBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Venda.cs:linha 203
+Date/Time: 2/1/2011 14:22:13
+===========================================================================================
+
+Title: Int32 GetOrdinal(System.String)
+Message: idClientessssssss
+StackTrace:    em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Library.VendaBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Venda.cs:linha 203
+Date/Time: 2/1/2011 14:24:56
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicionnal'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/1/2011 16:15:56
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/1/2011 16:15:56
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicionnal'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/1/2011 16:18:53
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/1/2011 16:18:53
+===========================================================================================
+
+Title: Void ShowValues(Library.Setor)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Setor.Setor.ShowValues(Setor setor) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 311
+   em Forms.Setor.Setor.dataGridView1_RowEnter(Object sender, DataGridViewCellEventArgs e) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 237
+   em System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCellEventArgs e)
+   em System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   em System.Windows.Forms.DataGridView.OnEnter(EventArgs e)
+   em System.Windows.Forms.Control.NotifyEnter()
+   em System.Windows.Forms.ContainerControl.UpdateFocusedControl()
+   em System.Windows.Forms.ContainerControl.AssignActiveControlInternal(Control value)
+   em System.Windows.Forms.ContainerControl.ActivateControlInternal(Control control, Boolean originator)
+   em System.Windows.Forms.ContainerControl.SetActiveControlInternal(Control value)
+   em System.Windows.Forms.ContainerControl.SetActiveControl(Control ctl)
+   em System.Windows.Forms.ContainerControl.set_ActiveControl(Control value)
+   em System.Windows.Forms.Control.Select(Boolean directed, Boolean forward)
+   em System.Windows.Forms.Control.SelectNextControl(Control ctl, Boolean forward, Boolean tabStopOnly, Boolean nested, Boolean wrap)
+   em System.Windows.Forms.Control.SelectNextControlInternal(Control ctl, Boolean forward, Boolean tabStopOnly, Boolean nested, Boolean wrap)
+   em System.Windows.Forms.Control.SelectNextIfFocused()
+   em System.Windows.Forms.Control.set_Enabled(Boolean value)
+   em Forms.Setor.Setor.MenuDisabler(Boolean novo, Boolean editar, Boolean salvar, Boolean cancelar, Boolean excluir) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 355
+   em Forms.Setor.Setor.RefreshForm() na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 272
+Date/Time: 3/1/2011 15:29:42
+===========================================================================================
+
+Title: Void ShowValues(Library.Setor)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Setor.Setor.ShowValues(Setor setor) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 311
+   em Forms.Setor.Setor.dataGridView1_RowEnter(Object sender, DataGridViewCellEventArgs e) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 237
+   em System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCellEventArgs e)
+   em System.Windows.Forms.DataGridView.OnRowEnter(DataGridViewCell& dataGridViewCell, Int32 columnIndex, Int32 rowIndex, Boolean canCreateNewRow, Boolean validationFailureOccurred)
+   em System.Windows.Forms.DataGridView.OnEnter(EventArgs e)
+   em System.Windows.Forms.Control.NotifyEnter()
+   em System.Windows.Forms.ContainerControl.UpdateFocusedControl()
+   em System.Windows.Forms.ContainerControl.AssignActiveControlInternal(Control value)
+   em System.Windows.Forms.ContainerControl.ActivateControlInternal(Control control, Boolean originator)
+   em System.Windows.Forms.ContainerControl.SetActiveControlInternal(Control value)
+   em System.Windows.Forms.ContainerControl.SetActiveControl(Control ctl)
+   em System.Windows.Forms.ContainerControl.set_ActiveControl(Control value)
+   em System.Windows.Forms.Control.Select(Boolean directed, Boolean forward)
+   em System.Windows.Forms.Control.SelectNextControl(Control ctl, Boolean forward, Boolean tabStopOnly, Boolean nested, Boolean wrap)
+   em System.Windows.Forms.Control.SelectNextControlInternal(Control ctl, Boolean forward, Boolean tabStopOnly, Boolean nested, Boolean wrap)
+   em System.Windows.Forms.Control.SelectNextIfFocused()
+   em System.Windows.Forms.Control.set_Enabled(Boolean value)
+   em Forms.Setor.Setor.MenuDisabler(Boolean novo, Boolean editar, Boolean salvar, Boolean cancelar, Boolean excluir) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 355
+   em Forms.Setor.Setor.RefreshForm() na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Forms\Setor\Setor.cs:linha 272
+Date/Time: 3/1/2011 15:31:30
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: String or binary data would be truncated.
+The statement has been terminated.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.ClienteBD.Save(Cliente cliente) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 190
+Date/Time: 7/1/2011 14:24:53
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:31:25
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:31:29
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:31:42
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:31:44
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:31:45
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: String or binary data would be truncated.
+The statement has been terminated.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.FuncionarioBD.Save(Funcionario funcionario) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 94
+Date/Time: 7/1/2011 14:38:59
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: String or binary data would be truncated.
+The statement has been terminated.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.FornecedorBD.Save(Fornecedor fornecedor) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Fornecedor.cs:linha 70
+Date/Time: 7/1/2011 14:49:39
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:52:08
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:52:17
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 14:57:59
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Incorrect syntax near the keyword 'AND'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.ClienteBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Cliente.cs:linha 429
+Date/Time: 7/1/2011 15:03:21
+===========================================================================================
+
+Title: Library.Permissoes FindById(Int64)
+Message: Conversão especificada não é válida.
+StackTrace:    em Library.PermissoesBD.FindById(Int64 idSeguranca) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Permissoes.cs:linha 385
+Date/Time: 1/2/2011 23:48:58
+===========================================================================================
+
+Title: Int32 GetOrdinal(System.String)
+Message: cidade
+StackTrace:    em System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   em System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   em System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 423
+Date/Time: 1/2/2011 23:48:58
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 1/2/2011 23:52:04
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 1/2/2011 23:52:05
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:01:21
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:01:21
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:02:37
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:02:37
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:03:17
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:03:17
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:04:54
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:04:54
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:07:16
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:07:16
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:09:35
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:09:35
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid object name 'Condicional'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteReader()
+   em Library.CondicionalBD.FindAdvanced(QItem[] args) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Condicional.cs:linha 175
+Date/Time: 2/2/2011 00:11:01
+===========================================================================================
+
+Title: Void RefreshStatusCondicionais()
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Start.RefreshStatusCondicionais() na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Start.cs:linha 236
+Date/Time: 2/2/2011 00:11:01
+===========================================================================================
+
+Title: System.Data.SqlTypes.SqlDateTime FromTimeSpan(System.TimeSpan)
+Message: Estouro de SqlDateTime. Deve estar entre 1/1/1753 12:00:00 AM e 31/12/9999 11:59:59 PM.
+StackTrace:    em System.Data.SqlTypes.SqlDateTime.FromTimeSpan(TimeSpan value)
+   em System.Data.SqlTypes.SqlDateTime.FromDateTime(DateTime value)
+   em System.Data.SqlClient.MetaType.FromDateTime(DateTime dateTime, Byte cb)
+   em System.Data.SqlClient.TdsParser.WriteValue(Object value, MetaType type, Byte scale, Int32 actualLength, Int32 encodingByteSize, Int32 offset, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.TdsParser.TdsExecuteRPC(_SqlRPC[] rpcArray, Int32 timeout, Boolean inSchema, SqlNotificationRequest notificationRequest, TdsParserStateObject stateObj, Boolean isCommandProc)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.DespesaBD.Save(Despesa despesa) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Despesa.cs:linha 90
+Date/Time: 18/2/2011 00:19:56
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Erro de rede ou específico à instância ao estabelecer conexão com o SQL Server. O servidor não foi encontrado ou não estava acessível. Verifique se o nome da instância está correto e se o SQL Server está configurado para permitir conexões remotas. (provider: Named Pipes Provider, error: 40 - Não foi possível abrir uma conexão com o SQL Server)
+StackTrace:    em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 378
+Date/Time: 19/2/2011 13:00:53
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The variable name '@email' has already been declared. Variable names must be unique within a query batch or stored procedure.
+Must declare the scalar variable "@vencimentoInicio".
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.DespesaBD.Save(Despesa despesa) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Despesa.cs:linha 123
+Date/Time: 19/2/2011 13:02:46
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Implicit conversion from data type datetime to int is not allowed. Use the CONVERT function to run this query.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.DespesaBD.Save(Despesa despesa) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Despesa.cs:linha 123
+Date/Time: 19/2/2011 13:07:39
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Implicit conversion from data type datetime to int is not allowed. Use the CONVERT function to run this query.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.DespesaBD.Save(Despesa despesa) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Despesa.cs:linha 123
+Date/Time: 19/2/2011 13:13:34
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@empresa nvarchar(14),@telefone nvarchar(8),@endereco nvarchar(' expects the parameter '@dataCadastro', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.ConfiguracoesBD.Update(Configuracoes configuracoes) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Configuracoes.cs:linha 50
+Date/Time: 26/3/2011 17:38:15
+===========================================================================================
+
+Title: Void Open(System.String)
+Message: Erro na abertura da porta de comunicação
+StackTrace:    em Bematech.MiniImpressoras.PortaNaoFiscalSerial.Open(String nomePorta)
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.AbrirPorta()
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.Imprimir(String texto)
+   em Library.Classes.Print.PrintBematechVenda(Venda venda, Configuracoes config) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Classes\Print.cs:linha 41
+Date/Time: 26/3/2011 17:57:40
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@empresa nvarchar(5),@telefone nvarchar(8),@endereco nvarchar(1' expects the parameter '@dataCadastro', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.ConfiguracoesBD.Update(Configuracoes configuracoes) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Configuracoes.cs:linha 50
+Date/Time: 26/3/2011 17:59:49
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: The parameterized query '(@empresa nvarchar(5),@telefone nvarchar(8),@endereco nvarchar(1' expects the parameter '@dataCadastro', which was not supplied.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   em System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   em Library.ConfiguracoesBD.Update(Configuracoes configuracoes) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Configuracoes.cs:linha 50
+Date/Time: 26/3/2011 19:00:40
+===========================================================================================
+
+Title: Void Open(System.String)
+Message: Erro na abertura da porta de comunicação
+StackTrace:    em Bematech.MiniImpressoras.PortaNaoFiscalParalela.Open(String porta)
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.AbrirPorta()
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.Imprimir(IMensagemImpressoraNaoFiscal dados)
+   em Library.Classes.Print.PrintBematechVenda(Venda venda, Configuracoes config) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Classes\Print.cs:linha 45
+Date/Time: 26/3/2011 19:32:08
+===========================================================================================
+
+Title: Void Open(System.String)
+Message: Erro na abertura da porta de comunicação
+StackTrace:    em Bematech.MiniImpressoras.PortaNaoFiscalParalela.Open(String porta)
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.AbrirPorta()
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.Imprimir(IMensagemImpressoraNaoFiscal dados)
+   em Library.Classes.Print.PrintBematechVenda(Venda venda, Configuracoes config) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Classes\Print.cs:linha 45
+Date/Time: 26/3/2011 19:38:04
+===========================================================================================
+
+Title: Void Write(Byte[])
+Message: Erro de escrita na porta de comunicação
+StackTrace:    em Bematech.MiniImpressoras.PortaNaoFiscalParalela.Write(Byte[] buffer)
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.ConfigurarTabelaCaracteres()
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.Imprimir(IMensagemImpressoraNaoFiscal dados)
+   em Library.Classes.Print.PrintBematechVenda(Venda venda, Configuracoes config) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Classes\Print.cs:linha 52
+Date/Time: 27/3/2011 14:39:16
+===========================================================================================
+
+Title: Void Write(Byte[])
+Message: Erro de escrita na porta de comunicação
+StackTrace:    em Bematech.MiniImpressoras.PortaNaoFiscalParalela.Write(Byte[] buffer)
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.ConfigurarTabelaCaracteres()
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.Imprimir(IMensagemImpressoraNaoFiscal dados)
+   em Library.Classes.Print.PrintBematechVenda(Venda venda, Configuracoes config) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Classes\Print.cs:linha 60
+Date/Time: 27/3/2011 15:03:31
+===========================================================================================
+
+Title: Void Write(Byte[])
+Message: Erro de escrita na porta de comunicação
+StackTrace:    em Bematech.MiniImpressoras.PortaNaoFiscalParalela.Write(Byte[] buffer)
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.ConfigurarTabelaCaracteres()
+   em Bematech.MiniImpressoras.ImpressoraNaoFiscal.Imprimir(IMensagemImpressoraNaoFiscal dados)
+   em Library.Classes.Print.PrintBematechVenda(Venda venda, Configuracoes config) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Classes\Print.cs:linha 69
+Date/Time: 27/3/2011 15:19:38
+===========================================================================================
+
+Title: Library.VendaParcela[] ReturnVendaParcela(System.Windows.Forms.DataGridView, Int64)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Venda.Venda.ReturnVendaParcela(DataGridView dataGrid, Int64 idVendaAtual) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Venda\VendaModel.cs:linha 186
+Date/Time: 28/3/2011 13:04:00
+===========================================================================================
+
+Title: Void salvarButton_Click(System.Object, System.EventArgs)
+Message: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:    em Forms.Venda.Venda.salvarButton_Click(Object sender, EventArgs e) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Venda\Venda.cs:linha 257
+Date/Time: 28/3/2011 13:04:00
+===========================================================================================
+
+Title: Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+Message: Cadeia de entrada não estava em um formato incorreto.
+StackTrace:    em System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   em System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   em System.Int32.Parse(String s)
+   em Library.Converter.Funcoes.ConvertToInt(String value) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Converter\Funcoes.cs:linha 85
+   em Forms.FormaPagamento.salvarButton_Click(Object sender, EventArgs e) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\FormaPagamento.cs:linha 177
+   em System.Windows.Forms.Control.OnClick(EventArgs e)
+   em System.Windows.Forms.Button.OnClick(EventArgs e)
+   em System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   em System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   em System.Windows.Forms.Control.WndProc(Message& m)
+   em System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   em System.Windows.Forms.Button.WndProc(Message& m)
+   em System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   em System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   em System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   em System.Windows.Forms.UnsafeNativeMethods.DispatchMessageW(MSG& msg)
+   em System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   em System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   em System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   em System.Windows.Forms.Application.RunDialog(Form form)
+   em System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   em Forms.Venda.Venda.salvarButton_Click(Object sender, EventArgs e) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Forms\Venda\Venda.cs:linha 200
+Date/Time: 28/3/2011 13:13:27
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid column name 'idVenda'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.ChequeBD.Save(Cheque cheque) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Cheque.cs:linha 51
+Date/Time: 28/3/2011 13:13:41
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Invalid column name 'idVenda'.
+StackTrace:    em System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   em System.Data.SqlClient.SqlDataReader.get_MetaData()
+   em System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   em System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   em System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   em Library.ChequeBD.Save(Cheque cheque) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Cheque.cs:linha 51
+Date/Time: 28/3/2011 13:13:41
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Login failed for user 'sa'.
+StackTrace:    em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 378
+Date/Time: 30/03/11 18:47:29
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Login failed for user 'sa'.
+StackTrace:    em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Eduardo\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 378
+Date/Time: 30/03/11 18:58:27
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Login failed for user 'sa'.
+StackTrace:    em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 378
+Date/Time: 16/05/11 17:00:38
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: Cannot open database "ClaudiaBD" requested by the login. The login failed.
+Login failed for user 'sa'.
+StackTrace:    em System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   em System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   em System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   em System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   em System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   em System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   em System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   em System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   em System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   em System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   em System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   em System.Data.SqlClient.SqlConnection.Open()
+   em Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Funcionario.cs:linha 378
+Date/Time: 16/05/11 19:54:30
+===========================================================================================
+
+Title: Library.Configuracoes FindById(Int64)
+Message: Conversão especificada não é válida.
+StackTrace:    em Library.ConfiguracoesBD.FindById(Int64 idConfiguracoes) na C:\Documents and Settings\Vinícius\Desktop\Easysystem_Veronica\Library\Configuracoes.cs:linha 94
+Date/Time: 16/05/11 19:56:08
+===========================================================================================
+
+Title: Void OnError(System.Data.SqlClient.SqlException, Boolean)
+Message: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+StackTrace:    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Library.FuncionarioBD.Logar(String login, String senha, Funcionario& funcionario, String& menssage) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Library\Funcionario.cs:line 378
+Date/Time: 12/07/2011 12:04:46
+===========================================================================================
+
+Title: Int32 GetOrdinal(System.String)
+Message: vendaDiasMinimoEditar
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Library.ConfiguracoesBD.FindById(Int64 idConfiguracoes) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Library\Configuracoes.cs:line 94
+Date/Time: 12/07/2011 12:11:26
+===========================================================================================
+
+Title: Library.Despesa FindById(Int64)
+Message: Specified cast is not valid.
+StackTrace:    at Library.DespesaBD.FindById(Int64 idDespesa) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Library\Despesa.cs:line 277
+Date/Time: 12/07/2011 12:14:17
+===========================================================================================
+
+Title: System.Object get_Item(Int32)
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   at Forms.Venda.QuitarParcela.quitarButton_Click(Object sender, EventArgs e) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\QuitarParcela.cs:line 133
+Date/Time: 12/07/2011 14:40:24
+===========================================================================================
+
+Title: System.Object get_Item(Int32)
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   at Forms.Venda.QuitarParcela.quitarButton_Click(Object sender, EventArgs e) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\QuitarParcela.cs:line 205
+Date/Time: 12/07/2011 14:40:27
+===========================================================================================
+
+Title: System.Object get_Item(Int32)
+Message: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+StackTrace:    at System.Collections.ArrayList.get_Item(Int32 index)
+   at System.Windows.Forms.DataGridViewSelectedRowCollection.get_Item(Int32 index)
+   at Forms.Venda.QuitarParcela.quitarButton_Click(Object sender, EventArgs e) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\QuitarParcela.cs:line 205
+Date/Time: 12/07/2011 14:40:37
+===========================================================================================
+
+Title: Library.VendaParcela[] ReturnVendaParcela(System.Windows.Forms.DataGridView, Int64)
+Message: Object reference not set to an instance of an object.
+StackTrace:    at Forms.Venda.Venda.ReturnVendaParcela(DataGridView dataGrid, Int64 idVendaAtual) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\VendaModel.cs:line 191
+Date/Time: 13/07/2011 11:53:27
+===========================================================================================
+
+Title: Void salvarButton_Click(System.Object, System.EventArgs)
+Message: Object reference not set to an instance of an object.
+StackTrace:    at Forms.Venda.Venda.salvarButton_Click(Object sender, EventArgs e) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\Venda.cs:line 257
+Date/Time: 13/07/2011 11:53:27
+===========================================================================================
+
+Title: Library.VendaParcela[] ReturnVendaParcela(System.Windows.Forms.DataGridView, Int64)
+Message: Object reference not set to an instance of an object.
+StackTrace:    at Forms.Venda.Venda.ReturnVendaParcela(DataGridView dataGrid, Int64 idVendaAtual) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\VendaModel.cs:line 191
+Date/Time: 13/07/2011 11:54:46
+===========================================================================================
+
+Title: Void salvarButton_Click(System.Object, System.EventArgs)
+Message: Object reference not set to an instance of an object.
+StackTrace:    at Forms.Venda.Venda.salvarButton_Click(Object sender, EventArgs e) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Forms\Venda\Venda.cs:line 257
+Date/Time: 13/07/2011 11:54:46
+===========================================================================================
+
+Title: Int32 GetOrdinal(System.String)
+Message: impressoraPorta
+StackTrace:    at System.Data.ProviderBase.FieldNameLookup.GetOrdinal(String fieldName)
+   at System.Data.SqlClient.SqlDataReader.GetOrdinal(String name)
+   at System.Data.SqlClient.SqlDataReader.get_Item(String name)
+   at Library.ConfiguracoesBD.FindById(Int64 idConfiguracoes) in C:\Users\Eduardo\Documents\Visual Studio 2010\Projects\Easysystem_Veronica\Library\Configuracoes.cs:line 96
+Date/Time: 24/07/2011 11:22:11
+===========================================================================================
+

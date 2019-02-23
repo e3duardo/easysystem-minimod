@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="EasySystem.Mod.Shared" namespace="EasySystem.Mod.Shared.Domain">
+
+  <class name="Configuracao" table="[msh_Configuracao]">
+
+    <id name="Id" column="IdConfiguracao">
+      <generator class="native"/>
+    </id>
+
+
+    <property name="ClienteFormularioMostrarFiltros"/>
+
+    <property name="ClienteFormularioSalvarAutomaticamenteAoSair"/>
+
+    <property name="ClienteFormularioSalvarArquivoEnquandoCadastra"/>
+
+    <property name="ClienteFormularioLocalArquivoEnquantoCadastra"/>
+
+    <property name="ClienteFormularioPermitirCadastroComCpfDuplicado"/>
+
+    <!--Sys-->
+    <property name="Sys_DataCadastro"/>
+
+    <property name="Sys_DataModificado"/>
+
+    <property name="Sys_Ativo"/>
+
+    <property name="Sys_Ativo_Descricao"/>
+
+  </class>
+
+</hibernate-mapping>
